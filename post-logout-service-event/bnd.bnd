@@ -1,0 +1,3 @@
+Bundle-Name: post-logout-service-event
+Bundle-SymbolicName: com.aixtor.training.postLogout.service.event
+Bundle-Version: 1.0.0
