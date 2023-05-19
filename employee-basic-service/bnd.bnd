@@ -1,0 +1,3 @@
+Bundle-Name: employee-basic-service
+Bundle-SymbolicName: com.training.aixtor.service
+Bundle-Version: 1.0.0
