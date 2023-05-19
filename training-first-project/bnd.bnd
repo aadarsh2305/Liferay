@@ -1,0 +1,6 @@
+Bundle-Name: training-first-project
+Bundle-SymbolicName: training.first.project
+Bundle-Version: 1.0.0
+Export-Package: training.first.project.constants
+Private-Package: com.ctc.wstx.osgi
+Bundle-Activator: training.first.project.components.MyComponent
