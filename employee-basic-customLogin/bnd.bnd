@@ -1,0 +1,4 @@
+Bundle-Name: employee-basic-customLogin
+Bundle-SymbolicName: com.aixtor.customLogin.portlet
+Bundle-Version: 1.0.0
+Export-Package: com.aixtor.customLogin.portlet.constants
