@@ -1,0 +1,3 @@
+Bundle-Name: post-login-service-event
+Bundle-SymbolicName: com.aixtor.training.postLogin.service.event
+Bundle-Version: 1.0.0
