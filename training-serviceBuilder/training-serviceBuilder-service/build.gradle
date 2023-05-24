@@ -1,0 +1,13 @@
+dependencies {
+	compile project(":modules:training-serviceBuilder:training-serviceBuilder-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+	
+	compileOnly group: "com.liferay", name: "com.liferay.portal.dao.orm.custom.sql.api", version: "1.0.0"
+}
+
+buildService {
+	apiDir = "../training-serviceBuilder-api/src/main/java"
+}
+
+group = "com.test.serviceBuilder"
