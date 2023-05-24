@@ -1,0 +1,6 @@
+Bundle-Name: employee-basic-info-web
+Bundle-SymbolicName: com.aixtor.employee.basic.info
+Bundle-Version: 1.0.0
+Export-Package: com.aixtor.employee.basic.info.constants
+Import-Package: *;resolution:="optional"	
+
