@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.test.serviceBuilder.model.Branch">
+		<field name="uuid" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="Id" type="long" />
+		<field name="Name" type="String" />
+		<field name="City" type="long" />
+		<field name="address1" type="String" />
+		<field name="address2" type="String" />
+		<field name="Country" type="long" />
+		<field name="State" type="long" />
+		<field name="Pincode" type="int" />
+	</model>
+	<model name="com.test.serviceBuilder.model.City">
+		<field name="uuid" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="cityId" type="long" />
+		<field name="cityName" type="String" />
+		<field name="stateId" type="long" />
+	</model>
+	<model name="com.test.serviceBuilder.model.Department">
+		<field name="uuid" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="Id" type="long" />
+		<field name="Name" type="String" />
+		<field name="Head" type="String" />
+	</model>
+	<model name="com.test.serviceBuilder.model.Designation">
+		<field name="uuid" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="Id" type="long" />
+		<field name="Name" type="String" />
+	</model>
+	<model name="com.test.serviceBuilder.model.Employee">
+		<field name="uuid" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="Id" type="long" />
+		<field name="Name" type="String" />
+		<field name="MobileNo" type="long" />
+		<field name="Email" type="String" />
+		<field name="departmentId" type="long" />
+		<field name="branchId" type="long" />
+		<field name="designationId" type="long" />
+	</model>
+	<model name="com.test.serviceBuilder.model.SpringMvc">
+		<field name="uuid" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="id" type="long" />
+		<field name="firstName" type="String" />
+	</model>
+	<model name="com.test.serviceBuilder.model.State">
+		<field name="uuid" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="stateId" type="long" />
+		<field name="stateName" type="String" />
+		<field name="countryId" type="long" />
+	</model>
+</model-hints>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom-sql>
+	<sql
+		id="com.test.serviceBuilder.service.persistence.impl.EmployeeFinderImpl.findByEmployee">
+	 <![CDATA[
+
+		SELECT service_builder_employee.Id,service_builder_employee.Name,service_builder_employee.MobileNo, service_builder_employee.Email, service_builder_employee.departmentId, service_builder_employee.branchId, service_builder_employee.designationId
+		FROM service_builder_employee
+		JOIN service_builder_designation ON service_builder_employee.designationId = service_builder_designation.Id
+		JOIN service_builder_department ON service_builder_employee.departmentId = service_builder_department.Id
+		JOIN service_builder_branch ON service_builder_employee.branchId = service_builder_branch.Id
+		WHERE service_builder_employee.Name LIKE ?
+		OR service_builder_designation.Name LIKE ?
+		OR service_builder_department.Name LIKE ?
+		OR service_builder_branch.Name LIKE ?
+
+	 ]]>
+	</sql>
+
+	<sql
+		id="com.test.serviceBuilder.service.persistence.impl.EmployeeFinderImpl.getEmployeeBeanNameById">
+		SELECT service_builder_employee.Id,service_builder_employee.Name,service_builder_employee.MobileNo,service_builder_employee.Email ,service_builder_department.Name as departmentName, service_builder_designation.Name as designationName,service_builder_branch.Name as branchName
+		FROM service_builder_employee
+ 		JOIN service_builder_department ON service_builder_employee.departmentId = service_builder_department.Id
+ 		JOIN service_builder_designation ON service_builder_employee.designationId = service_builder_designation.Id
+ 		JOIN service_builder_branch ON service_builder_employee.branchId = service_builder_branch.Id
+	</sql>
+</custom-sql>
+
+
